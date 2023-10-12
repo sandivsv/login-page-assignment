@@ -1,0 +1,171 @@
+body{
+    background-color: #482BE7;
+    color: white;
+    font-family: 'DM Sans';
+    width: 1400px;
+    height: 890px;
+    text-align: center;
+}
+.container{
+    margin: 0px 213px 0px 213px ;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    margin-top: 65px;
+    padding: 7px 0px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.25px;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 32px;
+}
+.menu .item{
+    padding: 2px 10px 2px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+.menu .item:nth-child(1){
+    opacity: 30%;
+}
+.active{
+    width: 100px;
+    line-height: 26px;
+    border-radius: 100px;
+    background-color: #E93A7D;
+}
+
+
+
+
+.page{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.about-page{
+    width: 427px;
+    height: 496px;
+    text-align: left;
+    margin-right: 30px;
+}
+.cont1{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.cont2{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.cont3{
+    width: 157px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #E93A7D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.login{
+    width: 470px;
+    height: 600px;
+    background-color: white;
+    color: black;
+    margin-left: 30px;
+    border: 2px solid #EBEAED;
+    border-radius: 5px;
+}
+
+.title{
+    height: 52px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #1E0E62;
+    margin-top: 50px;
+}
+.input-class{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 25px 0px;
+}
+.input-class .input{
+    width: 330px;
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 24px;
+}
+.box{
+    display: flex;
+    height: 26.4px;
+    /* margin: 25px 0px; */
+    padding-left: 55px;
+}
+.box .input-checkbox{
+    width: 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #25DAC5;
+}
+.input-class .text{
+    width: 228px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.signin, .twitter{
+    width: 330px;
+    background-color: #482BE7;
+    border-radius: 100px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.line{
+    display: flex;
+    width: 330px;
+    height: 26px;
+    padding-left: 70px;
+    opacity: 90%;
+}
+.left-line, .right-line{
+    width: 141.57px;
+    height: 2px;
+    border: 2px;
+    background-color: #EBEAED;
+
+}
+
+.twitter{
+    background-color: #1DA1F2;
+}
+.account{
+    opacity: 30%;
+}
+.action{
+    color: #25DAC5;
+    cursor: pointer;
+}
